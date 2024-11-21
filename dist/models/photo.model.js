@@ -11,5 +11,6 @@ const photoSchema = new mongoose_1.default.Schema({
         required: true
     },
     title: String
+    
 });
 exports.Photo = mongoose_1.default.model("Photo", photoSchema);

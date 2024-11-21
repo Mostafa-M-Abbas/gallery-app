@@ -26,5 +26,6 @@ class DatabaseService {
         await this.db.disconnect();
         this.db = undefined;
     }
+
 }
 exports.default = DatabaseService.getInstance();
